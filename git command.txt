@@ -1,0 +1,17 @@
+ls                               check list of items,files
+cd  - change directory
+pwd                   		 present work directory           
+git config --global user.name "Dinesh Saini"
+git config --global user.email "hdjsaini123@gmail.com"
+git config --list               user details
+git init      			create git repository
+git status                      check status
+git add . , git add --a           move all file staging area
+git add filename                move single file staging area
+git commit -m                   comment on change
+git clone "github url"         for clone file github url to remote file
+git log                      check all commit
+touch .gitignore               ignore files
+git rm --cached filename       for unstage a file
+git rm -f filename             remove file
+git checkout -- fullpath       restore file
